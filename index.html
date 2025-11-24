@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Result Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align:center;">Simple Marks Calculator</h1>
+
+    <div class="box">
+        <p>Enter marks for each subject (0-100):</p>
+
+        <input type="number" id="sub1" placeholder="ADD Subject 1">
+        <br>
+        <input type="number" id="sub2" placeholder="PIS Subject 2">
+        <br>
+        <input type="number" id="sub3" placeholder="MATHS Subject 3">
+        <br>
+        <input type="number" id="sub4" placeholder="ENGLISH Subject 4">
+        <br>
+        <input type="number" id="sub5" placeholder="PSC Subject 5">
+        <br><br>
+
+        <button onclick="calculate()">Show Result</button>
+
+        <h3>Your Output:</h3>
+        <p id="showAverage"></p>
+        <p id="showGrade"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
 
